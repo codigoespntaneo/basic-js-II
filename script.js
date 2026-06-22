@@ -10,6 +10,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Ejercicio 1: Escribe un condicional if/else que imprima en la consola 'Eres mayor de edad' cuando la constante age tenga el valor correspondiente, si no es así, debe imprimir 'No eres aún mayor de edad'
 
+<<<<<<< HEAD
 const age = 12
 //Escribe tu código aquí
 if (age >= 18) {
@@ -17,12 +18,18 @@ if (age >= 18) {
 } else {
     console.log('No eres aún mayor de edad');
 }
+=======
+const age = 18
+//Escribe tu código aquí
+
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
 
 
 //Ejercicio 3: Escribe un condicional if/else que lea la constante pet y si es un perro, que imprima en la consola "Tengo un perro", si es un gato, que imprima en la consola "Tengo un gato", si es un pájaro, que imprima en la consola "Tengo un pájaro" y si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
 
+<<<<<<< HEAD
 const pet = "serpiente";
 //Escribe tu código aquí
 if (pet === "perro"){
@@ -34,6 +41,11 @@ if (pet === "perro"){
 } else {
     console.log("No tengo una mascota convencional");
 }
+=======
+const pet = "perro";
+//Escribe tu código aquí
+
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
 
@@ -41,6 +53,7 @@ if (pet === "perro"){
 //Ejercicio 5: Haz el mismo ejercicio 3, pero con el condicional switch.
 
 //Escribe tu código aquí
+<<<<<<< HEAD
 switch (pet) {
     case "perro":
         console.log("Tengo un perro");
@@ -78,6 +91,26 @@ if (typeof value === 'number') {
 } else {
     console.log("No es ni número ni string");
 }
+=======
+
+
+//Ejercicio 6: Usando un operador ternario, escribe un programa que lea la constante weather e imprima en consola si es soleado "Me vestiré con un vestido" y si no es así que imprima "Me vestiré con pantalón"
+
+const weather = "soleado"
+
+const result = //Escribe tu código aquí;
+
+console.log(result)
+
+//Ejercicio 7: cambia el valor de weather a "frío" y mira el resultado en consola para comprobar que tu código funciona bien.
+
+//Ejercicio 8: Escribe un programa que al darle la constante 'value' imprima en consola "Es un número" cuando el valor sea de tipo number, "Es un string" cuando el valor sea de tipo string o si no es ni uno ni otro que imprima "No es ni número ni string". Puedes hacerlo con cualquier tipo de condicional.
+
+const value = '1'
+
+//Escribe tu código aquí
+
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //BUCLES
 
@@ -85,9 +118,12 @@ if (typeof value === 'number') {
 
 //Escribe tu código aquí
 
+<<<<<<< HEAD
 for (let i = 0; i <= 10; i++) {
     console.log(i);
 }
+=======
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //Ejercicio 10: Con un bucle for in imprime en pantalla todos los nombres, apellidos y su aporte a la sociedad de las programadoras de la historia contenidas en el array llamado 'programmers', Deberás imprimir el índice y la información de cada una de ellas de la siguiente manera: '0: Ada Lovelace, su aporte fue la máquina analítica'. 
 
@@ -115,11 +151,15 @@ const programmers = [
 ]
 
 //Escribe tu código aquí
+<<<<<<< HEAD
 let txt = "";
 for (let i in programmers) {
     txt += i + ": " + programmers[i].name + " " + programmers[i].lastname + ", su aporte fue " + programmers[i].knowledge + "\n";
 }
 console.log(txt);
+=======
+
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //Ejercicio 11: Con un bucle for of imprime en consola "Hola, mi nombre es ... " y reemplaza los tres puntos con cada nombre del array dado.
 
@@ -127,34 +167,45 @@ const names = ['Carla', 'Alex', 'Judith', 'Maria', 'Noelia']
 
 //Escribe tu código aquí
 
+<<<<<<< HEAD
 for (let name of names) {
     console.log("Hola, mi nombre es " + name);
 }
+=======
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //Ejercicio 12: Con un bucle while imprime en consola una lista del 1 al 5.
 
 //Escribe tu código aquí
+<<<<<<< HEAD
 let i = 0;
 while (i < 5) {
     console.log(i);
     i++;
     
 }
+=======
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 
 //Ejercicio 13: Realiza el mismo ejercicio anterior pero con un bucle do while.
 
 //Escribe tu código aquí
+<<<<<<< HEAD
 let j = 0;
 do {
     j++;
     console.log(j);
 } while (j < 5);
+=======
+
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 //Ejercicio 14: Saludo Personalizado
 //Crea una función llamada saludar que tome un parámetro llamado nombre y devuelva un saludo personalizado. Luego, llama a la función con diferentes nombres y muestra el resultado en la consola.
 
 //Escribe tu código aquí
+<<<<<<< HEAD
 function saludar(nombre) {
     return "Hola, " + nombre + "!";
 }
@@ -163,12 +214,15 @@ console.log(saludar("Jasmin"));
 console.log(saludar("Yan"));
 console.log(saludar("Jean"));
 console.log(saludar("Noris"));
+=======
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
 
 
 //Ejercicio 15: Calcular el Área de un Rectángulo
 //Crea una función llamada calcularAreaRectangulo que tome dos parámetros (ancho y alto) y devuelva el área del rectángulo. Luego, llama a la función con diferentes valores de ancho y alto y muestra el resultado en la consola.
 
 //Escribe tu código aquí
+<<<<<<< HEAD
 function calcularAreaRectangulo(base, altura) {
     return base * altura / 2;
 }
@@ -176,3 +230,6 @@ function calcularAreaRectangulo(base, altura) {
 console.log(calcularAreaRectangulo(5, 10));
 console.log(calcularAreaRectangulo(3, 7));
 console.log(calcularAreaRectangulo(8, 4));
+=======
+
+>>>>>>> ec90e4c696b0170daac1987053ec85ccbd3d6ffd
